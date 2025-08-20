@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Armotus">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="fav/favicon.svg">
+	<title>Universal Transcriber</title>
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="main">
+	<h1 style="cursor:pointer" onclick="myTheme();">UNIVERSAL TRANSCRIBER</h1>
+	<p>A simple universal transcriber for languages with unicode characters.</p>
+	<br>
+	<form><textarea id="myInput" rows="12" cols="90" spellcheck="false" placeholder="Enter some text here and click the 'Run' button" onmouseup="mySize();"></textarea></form>
+	<br>
+	<form><textarea id="myPrompt" rows="3" cols="90" spellcheck="false" placeholder=":,b:v,h:,ch:dd,ll:x, v: r, ... Enter all instructions here" onmouseup="mySize2();"></textarea></form>
+	<br>
+	<button onclick="myChange();">Run</button><span class="spanBreak1">&nbsp;</span><button onclick="myClear();">Clear</button><span class="spanBreak2">&nbsp;</span><button onclick="myAaTex();">A:a</button>
+	<br><br>
+	<form><textarea id="myResult" rows="12" cols="90" spellcheck="false" placeholder="Display in dark or light mode : click on the 'Title'" onmouseup="mySize();"></textarea></form>
+	<br>
+	<div id="menu-A">
+	<button onclick="mySave();">Save</button><span class="spanBreak1">&nbsp;</span><button id="myCopx" onclick="myCopy();">Copy</button><span class="spanBreak2">&nbsp;</span><button onclick="myPanel();">Panel</button>
+	</div>
+	<div id="menu-B">
+	<button onclick="myModo();">Area</button><span class="spanBreak1">&nbsp;</span><button onclick="myWeb();">Web</button><span class="spanBreak2">&nbsp;</span><button onclick="myPanel();">Back</button>
+	</div>
+	<br><br><br>
+	</div>
+	<script src="js/transcriber.js"></script>
+	<script src="js/panels.js"></script>
+</body>
+</html>

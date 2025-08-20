@@ -1,0 +1,51 @@
+{
+  "name": "universal-transcriber",
+  "version": "1.0.0",
+  "description": "A simple universal transcriber for languages with unicode characters.",
+  "main": "js/universal-transcriber.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "transcription",
+    "phonological",
+    "linguistics",
+    "transcriber",
+    "transcribe",
+    "universal",
+    "character",
+    "phonology",
+    "allophone",
+    "phonetics",
+    "phonemics",
+    "phonetic",
+    "phonemic",
+    "alphabet",
+    "language",
+    "writing",
+    "phoneme",
+    "unicode",
+    "javascript",
+    "html5"
+  ],
+  "author": {
+    "name": "Armotus"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armotus/universal-transcriber.git"
+  },
+  "bugs": {
+    "url": "https://github.com/armotus/universal-transcriber/issues"
+  },
+  "homepage": "https://github.com/armotus/universal-transcriber#readme",
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^11.1.0"
+  }
+}
